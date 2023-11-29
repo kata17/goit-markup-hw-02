@@ -7,10 +7,15 @@ body {
 /* neader */
 
 /* Navigation */
-
-.header {
-
+.navagation{
+width: 1440px;
+height: 72px;
+flex-shrink: 0;
+border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+    background: var(--WHITE, #FFF);
 }
+
+
 
 /* man */
 
