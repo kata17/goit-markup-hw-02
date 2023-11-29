@@ -15,8 +15,49 @@ border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
     background: var(--WHITE, #FFF);
 }
 
+.header-logo {
+width: 44px;
+color: var(--IRIS, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
 
-
+.logo-span {
+width: 71px;
+color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+.menu-list {
+display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+.menu-nav {
+color: var(--NAVY-BLUE, #2E2F42);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+}
+.menu-nav:hover {
+    color: var(--SLATE, #434455);
+}
+.menu-nav:focus {
+    color: var(--SLATE, #434455);;
+}
 /* man */
 
 
