@@ -47,11 +47,11 @@ body {
         line-height: 1.5;
         letter-spacing: 0.32px;
 }
-.menu-nav:hover{
-   background-color: #404BBF;
+.menu-nav.hover{
+color: #404BBF;
 }
-.menu-nav:focus{
-   background-color: #404BBF ;
+.menu-nav.focus{
+color: #404BBF ;
 }
 
 .adress {
@@ -70,10 +70,10 @@ body {
         letter-spacing: 0.32px;
 }
 .contacts:hover{
-background-color: #404bbf;
+color: #404bbf;
 }
 .contacts:focus{
-   background-color: #404bbf;
+    color: #404bbf;
 }
 
 
@@ -97,26 +97,17 @@ background: #2E2F42;
 }
 
 .section-button {
-    color:  #FFF;
-    
-        font-family: "Roboto";
+    background:  #4D5AE5;
+        font-family: "Roboto", sans-serif;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.64px;
-        
-            
-           
-           
-           
-                background:  #4D5AE5;
-               
-}
+        cursor: pointer;
+            }
 
-.button-class {
-cursor: pointer;
-}
+
 .section-button:hover{
 background-color: #404BBF;
 }
@@ -132,13 +123,7 @@ background-color: #404BBF;
         background: #FFF;
 }
 
-.title {
-    
-       
-      
-       
-        
-}
+.title {}
 
 .title-name {
 color: #2E2F42;
